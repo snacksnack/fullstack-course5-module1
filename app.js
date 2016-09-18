@@ -29,7 +29,7 @@
       var items = $scope.items
       if (items == "") {
         $scope.textBox = "red";
-        return $scope.message = "Please enter a comma separated list of items!";
+        return $scope.message = "Please enter a data first!";
       }
       
       var validItems = $scope.validateInput(items);
